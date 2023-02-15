@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.stake-section{
+    padding: 2rem 0;
+  // width: 90vw;
+  width: 100%;
+  // margin: 0 auto;
+  
+  font-family: 'Poppins', sans-serif;
+  background-image: radial-gradient(circle, #e6cfdb, #e4cee0, #e7d6ef, #e0d9f3, #dadcf4, #d8dbf2, #d7dbf1, #d5daef, #d6d7ea, #d6d3e6, #d6d0e1, #d6cddc);
+
+}
+.stake-content{
+    text-align: center;
+ max-width: 800px;
+ margin: auto;
+ 
+ h1{
+    margin-top: 50px;
+ }
+ 
+}
+.distance{
+    margin: 30px 0;
+}
+.stake-rate{
+    display: flex;
+    justify-content: center;
+     margin: 30px 0;
+}
+.stake-rate p{
+    margin: 10px 30px;
+    // padding-bottom: 10px;
+    // color: #828283;
+}
+.stake-p{
+    // padding-bottom: 10px;
+    color: #828283;
+}
+// .stake-table{
+//     position: absolute;
+// }
+.ether{
+    
+    font-size: 0.8rem;
+   color: #828283;
+   font-weight: 200;
+    // padding: 0 12px;
+    padding-right: 14px;
+    
+   
+}
+.stake-percent{
+    font-size: 0.8rem;
+ position: relative;
+ top: -30px;
+
+  button{
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 1px solid rgb(80, 79, 80);
+    margin:20px 10px
+  }
+}
+.sub-ether {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   p{
+   
+        color: #8e8e8f;
+        font-size: 1.5rem;
+        margin-right: 6px;
+        margin-top: 4px;
+    
+   }
+   h4{
+    color: #333;
+   }
+}
+.stake{
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.stake-block{
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+  background: transparent;
+    padding: 24px 20px;
+  margin: 20px 10px;
+    &_period{
+        display: flex;
+        justify-content: space-between;
+        margin: 4px 10px;
+        // font-size: 0.5rem;
+        p{
+            font-size: 0.8rem;
+        }
+        span{
+            padding: 3px;
+            font-size: 0.6rem;
+            color: #828283;
+        }
+    }
+}
+.stake-block_big{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   gap: 1rem;
+//    margin: 20px 0;
+margin: auto;
+//    padding: 0 20px;
+   max-width: 800px;
+}
+.stake-block_small{
+    border: 1px solid rgb(114, 113, 113);
+    padding: 20px 20px;
+    // margin-right:10px;
+   max-width: 800px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+
+    h3{
+        padding-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    button{
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.8rem;
+        border: 1px solid rgb(80, 79, 80);
+        margin:20px 10px
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .stake{
+        flex-direction: column;
+        max-width: 80vw;
+        margin: auto;
+    }
+}
