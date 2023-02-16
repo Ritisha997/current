@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapped-section{
+    padding: 2rem 0;
+    // width: 90vw;
+    width: 100%;
+    // margin: 0 auto;
+    // text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: radial-gradient(circle, #e6cfdb, #e4cee0, #e7d6ef, #e0d9f3, #dadcf4, #d8dbf2, #d7dbf1, #d5daef, #d6d7ea, #d6d3e6, #d6d0e1, #d6cddc);
+  
+}
+.borrow{
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+.factor{
+    display: flex;
+    // justify-content: center;
+    gap: 2rem;
+    margin: 20px 0;
+}
+.e-mode{
+    display: flex;
+    gap: 1.4rem;
+}
+.wallet-flex{
+    display: flex;
+    margin: 20px 0;
+    gap: 2rem;
+}
+.wallet-supply{
+    display: flex;
+    justify-content: space-between;
+
+    button{
+        padding: 4px 12px;
+        border: 1px solid rgb(56, 195, 250);
+        border-radius: 14px;
+    }
+}
+.flex-container{
+    display: flex;
+    margin: 60px 30px;
+    gap: 3rem;
+    justify-content: center;
+}
+.reserve{
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+    max-width: 600px;
+    padding: 16px 10px;
+
+    p{
+        color: rgb(145, 143, 143);
+        font-weight: 500;
+    }
+}
+.collector{
+    margin-left: 100px;
+}
+.wallet-balance{
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+    padding: 14px 16px;
+    height: 280px;
+    width: 300px;
+
+    p{
+        font-weight: 500;
+        padding-top: 6px;
+    }
+}
+.dollar{
+    padding: 10px 0;
+}
+.empty{
+    padding: 20px 0;
+}
